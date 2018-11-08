@@ -94,6 +94,15 @@ module_energy_LA100.IEA_downscale_ctry <- function(command, ...) {
         L100.IEAfull[CTG_entries & L100.IEAfull$PRODUCT == "Gas works gas", hy] *
         COAL_TO_GAS_COEF * -1     # Multiply by -1 because inputs and outputs have a different sign
 
+      # UFA2b. Greece in 1971:1981 and Finland in 1971 have the same problems as South Africa identified in UFA2
+      # Just apply the same method in all historical years (this sector is tiny in each case)
+      CTG_entries_b <- L100.IEAfull$COUNTRY %in% c("Greece", "Finland") & L100.IEAfull$FLOW == "TGASWKS"
+      # Only use other bituminous coal; no need to maintain distinction between coal (if no detail) and other bituminous coal
+      L100.IEAfull[CTG_entries_b & L100.IEAfull$PRODUCT == "Hard coal (if no detail)", hy] <- 0
+      L100.IEAfull[CTG_entries_b & L100.IEAfull$PRODUCT == "Other bituminous coal", hy] <-
+        L100.IEAfull[CTG_entries_b & L100.IEAfull$PRODUCT == "Gas works gas", hy] *
+        COAL_TO_GAS_COEF * -1     # Multiply by -1 because inputs and outputs have a different sign
+
       # UFA3. Turkey has electricity production from primary solid biofuels (elautoc) between 1971 and 1981
       # with no corresponding fuel input by any sectors; add a fuel input to avoid negative numbers later on.
       CHP_IO_COEF <- 5
