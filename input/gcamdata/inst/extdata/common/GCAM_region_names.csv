@@ -5,23 +5,48 @@
 # ----------,
 GCAM_region_ID,region
 1,USA
-2,Europe
-3,Africa_Eastern
-4,Africa_Northern
-5,Africa_Southern
-6,Africa_Western
-7,Australia_NZ
-8,Brazil
-9,Canada
-10,Central America and Caribbean
-11,Central Asia
-12,China
-13,India
-14,Indonesia
-15,Japan and Korea
-16,Middle East
-17,Russia
-18,South America_Northern
-19,South America_Southern
-20,South Asia
-21,Southeast Asia
+2,Austria
+3,Belgium and Luxembourg
+4,Bulgaria
+5,Croatia and Slovenia
+6,Czech Republic
+7,Denmark
+8,Baltic States
+9,Finland
+10,France
+11,Germany
+12,Greece and Cyprus
+13,Hungary
+14,Ireland
+15,Italy and Malta
+16,Netherlands
+17,Poland
+18,Portugal
+19,Romania
+20,Slovakia
+21,Spain
+22,Sweden
+23,UK
+24,Norway and Iceland
+25,Switzerland
+26,Balkan countries
+27,Ukraine and Belarus
+28,Africa_Eastern
+29,Africa_Northern
+30,Africa_Southern
+31,Africa_Western
+32,Australia_NZ
+33,Brazil
+34,Canada
+35,Central America and Caribbean
+36,Central Asia
+37,China
+38,India
+39,Indonesia
+40,Japan and Korea
+41,Middle East
+42,Russia
+43,South America_Northern
+44,South America_Southern
+45,South Asia
+46,Southeast Asia

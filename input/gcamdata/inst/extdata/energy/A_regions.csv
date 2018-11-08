@@ -4,23 +4,48 @@
 # Description: Specifies region-specific assumptions in the energy system,,,,,,,,
 GCAM_region_ID,region,tradbio_region,ethanol,biodiesel,biomassOil_tech,elect_td_techchange,has_district_heat,region.class
 1,USA,0,corn ethanol,biodiesel,OilCrop,0.0001,0,A
-2,Europe,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
-3,Africa_Eastern,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
-4,Africa_Northern,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
-5,Africa_Southern,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
-6,Africa_Western,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
-7,Australia_NZ,0,cellulosic ethanol,biodiesel,OilCrop,0.0001,0,B
-8,Brazil,1,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
-9,Canada,0,corn ethanol,biodiesel,OilCrop,0.0001,0,B
-10,Central America and Caribbean,1,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
-11,Central Asia,0,cellulosic ethanol,FT biofuels,OilCrop,0.0001,0,D
-12,China,1,corn ethanol,biodiesel,OilCrop,0.0001,1,D
-13,India,1,cellulosic ethanol,FT biofuels,OilCrop,0.002,0,E
-14,Indonesia,1,sugar cane ethanol,biodiesel,PalmFruit,0.00025,0,E
-15,Japan and Korea,0,cellulosic ethanol,FT biofuels,OilCrop,0.0001,0,D
-16,Middle East,0,cellulosic ethanol,FT biofuels,OilCrop,0.0004,0,D
-17,Russia,0,cellulosic ethanol,FT biofuels,OilCrop,0.0004,1,D
-18,South America_Northern,1,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
-19,South America_Southern,1,corn ethanol,biodiesel,OilCrop,0.00075,0,D
-20,South Asia,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
-21,Southeast Asia,1,sugar cane ethanol,biodiesel,PalmFruit,0.00025,0,E
+2,Austria,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+3,Belgium and Luxembourg,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+4,Bulgaria,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+5,Croatia and Slovenia,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+6,Czech Republic,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+7,Denmark,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+8,Baltic States,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+9,Finland,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+10,France,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+11,Germany,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+12,Greece and Cyprus,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+13,Hungary,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+14,Ireland,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+15,Italy and Malta,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+16,Netherlands,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+17,Poland,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+18,Portugal,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+19,Romania,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+20,Slovakia,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+21,Spain,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+22,Sweden,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+23,UK,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+24,Norway and Iceland,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+25,Switzerland,0,corn ethanol,biodiesel,OilCrop,0.0001,1,C
+26,Balkan countries,0,corn ethanol,biodiesel,OilCrop,0.0002,1,C
+27,Ukraine and Belarus,0,corn ethanol,biodiesel,OilCrop,0.0002,1,D
+28,Africa_Eastern,0,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
+29,Africa_Northern,0,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
+30,Africa_Southern,0,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
+31,Africa_Western,1,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
+32,Australia_NZ,1,cellulosic ethanol,biodiesel,OilCrop,0.0001,0,B
+33,Brazil,1,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
+34,Canada,1,corn ethanol,biodiesel,OilCrop,0.0001,0,B
+35,Central America and Caribbean,0,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
+36,Central Asia,1,cellulosic ethanol,FT biofuels,OilCrop,0.0001,0,D
+37,China,0,corn ethanol,biodiesel,OilCrop,0.0001,1,D
+38,India,1,cellulosic ethanol,FT biofuels,OilCrop,0.002,0,E
+39,Indonesia,0,sugar cane ethanol,biodiesel,PalmFruit,0.00025,0,E
+40,Japan and Korea,1,cellulosic ethanol,FT biofuels,OilCrop,0.0001,0,D
+41,Middle East,1,cellulosic ethanol,FT biofuels,OilCrop,0.0004,0,D
+42,Russia,1,cellulosic ethanol,FT biofuels,OilCrop,0.0004,1,D
+43,South America_Northern,0,sugar cane ethanol,biodiesel,OilCrop,0.00075,0,D
+44,South America_Southern,0,corn ethanol,biodiesel,OilCrop,0.00075,0,D
+45,South Asia,0,cellulosic ethanol,FT biofuels,OilCrop,0.00025,0,E
+46,Southeast Asia,1,sugar cane ethanol,biodiesel,PalmFruit,0.00025,0,E

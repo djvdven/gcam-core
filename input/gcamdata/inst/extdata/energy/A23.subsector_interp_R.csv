@@ -5,8 +5,33 @@
 # Source: GCAM assumptions, documented in proposal 210_GCAM4p1_Electricity Generation Assumptions.pdf (page 23),,,,,,
 region,supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
 USA,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
-Europe,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
-Africa_Eastern,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Austria,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Belgium and Luxembourg,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Bulgaria,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Croatia and Slovenia,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Czech Republic,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Denmark,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Baltic States,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Finland,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+France,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Germany,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Greece and Cyprus,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Hungary,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Ireland,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Italy and Malta,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Netherlands,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Poland,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Portugal,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Romania,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Slovakia,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Spain,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Sweden,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+UK,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Norway and Iceland,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Switzerland,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Balkan countries,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Ukraine and Belarus,electricity,refined liquids,share-weight,final-calibration-year,2100,,fixed
+Africa_Eastern,electricity,refined liquids,share-weight,final-calibration-year,2100,1,linear
 Africa_Northern,electricity,refined liquids,share-weight,final-calibration-year,2100,1,linear
 Africa_Southern,electricity,refined liquids,share-weight,final-calibration-year,2100,1,linear
 Africa_Western,electricity,refined liquids,share-weight,final-calibration-year,2100,1,linear
