@@ -295,7 +295,7 @@ module_energy_L232.industry <- function(command, ...) {
     # L232.StubTechCalInput_indenergy: calibrated input of industrial energy use technologies (including cogen)
     L1322.in_EJ_R_indenergy_F_Yh %>%
       bind_rows(L123.in_EJ_R_indchp_F_Yh) %>%
-      complete(nesting(GCAM_region_ID, sector, fuel), year = c(year, MODEL_BASE_YEARS)) %>%
+      complete(nesting(GCAM_region_ID, sector, fuel), year = c(year, MODEL_BASE_YEARS), fill = list(value = 0)) %>%
       arrange(GCAM_region_ID, sector, fuel, year) %>%
       group_by(GCAM_region_ID, sector, fuel) %>%
       mutate(value = approx_fun(year, value, rule = 1)) %>%
