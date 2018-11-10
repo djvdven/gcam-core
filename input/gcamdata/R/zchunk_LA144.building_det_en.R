@@ -460,7 +460,7 @@ module_energy_LA144.building_det_en <- function(command, ...) {
       # Rows expanded due to years
       left_join(L142.in_EJ_R_bld_F_Yh, by = c("GCAM_region_ID", "sector", "fuel")) %>%
       filter(year %in% HISTORICAL_YEARS) %>%
-      mutate(value = ServiceShare * value) %>%
+      mutate(value = if_else(is.na(value), 0, ServiceShare * value)) %>%
       # This has a number of combinations that do not apply. Drop the known ones.
       # This would be regions where heat or traditional biomass are not modeled as separate fuels.
       # This should take care of all missing values
